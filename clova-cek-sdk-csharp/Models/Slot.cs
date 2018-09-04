@@ -17,5 +17,10 @@ namespace CEK.CSharp.Models
         /// </summary>
         [JsonProperty("value")]
         public string Value { get; set; }
+        /// <summary>
+        /// CLOVA.DATETIME で使用する属性
+        /// </summary>
+        [JsonProperty("valueType")]
+        public string ValueType { get; set; }
     }
 }
